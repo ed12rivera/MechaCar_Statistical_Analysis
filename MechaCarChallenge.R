@@ -11,7 +11,7 @@ lm(mpg~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD
 
 summary(lm(mpg~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=car_data))
 
-# Suspension coil analysis
+# Summary statistics on suspension coils
 suspension_data <- read.csv("Data/Suspension_Coil.csv")
 
 # Create summary DataFrames
